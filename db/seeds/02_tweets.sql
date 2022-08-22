@@ -1,4 +1,4 @@
--- Tweets table seeds here (Example)
+-- Tweets table seeds here
 ALTER TABLE tweets
 ALTER COLUMN tweet_posted_at
 SET DEFAULT

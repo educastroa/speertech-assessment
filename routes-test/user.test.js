@@ -9,14 +9,9 @@ describe("Interviewers", () => {
     app = testSetup();
   });
 
-  // beforeEach(async () => {
-  //   await
-  //   runResetDB();
-  // });
-
   afterAll(async () => {
     await runResetDB();
-    await app.close();
+    app.close();
   });
 
   test("GET /api/users, Expect 200 response and returns the correct users in the database", async () => {
@@ -89,5 +84,4 @@ describe("Interviewers", () => {
         error: "email already exists",
       });
   });
-
 });

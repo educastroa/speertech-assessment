@@ -9,7 +9,7 @@
     "local": "./node_modules/.bin/nodemon -L --ignore public/",
     "db:reset": "node -e 'require(\"./bin/resetdb\").runResetDB()'"
   },
-  "author": "Lighthouse Labs",
+  "author": "eduardo",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",

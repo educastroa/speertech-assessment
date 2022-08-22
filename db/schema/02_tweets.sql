@@ -1,4 +1,4 @@
--- Drop and recreate Widgets table (Example)
+-- Drop and recreate tweets table
 
 DROP TABLE IF EXISTS tweets CASCADE;
 CREATE TABLE tweets (

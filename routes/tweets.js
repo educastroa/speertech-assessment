@@ -3,9 +3,7 @@ const router = express.Router();
 
 module.exports = (db) => {
 
-  //  description: saves a job to the user's saved jobs
-
-  router.post("/save", (req, res) => {
+   router.post("/save", (req, res) => {
     const {
       tweet_link,
       tweet_content,

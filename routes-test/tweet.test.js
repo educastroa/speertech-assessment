@@ -9,11 +9,6 @@ describe("Interviewers", () => {
     app = testSetup();
   });
 
-  // beforeEach(async () => {
-  //   await
-  //   runResetDB();
-  // });
-
   afterAll(async () => {
     await runResetDB();
     app.close();
